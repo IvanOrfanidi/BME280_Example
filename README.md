@@ -6,6 +6,7 @@
 ## Supported devices
 * Jetson Nano
 * Jetson Xavier NX
+* Raspberry Pi4
 
 ## Functions
 ### instance(device, address)
