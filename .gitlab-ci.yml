@@ -1,9 +1,9 @@
 stages:
-  - checking
-  - building
+  - check
+  - build
 
 clang-format:
-  stage: checking
+  stage: check
   script:
     - git clone http://git.home.lan/root/check-clang-format.git
     - cp check-clang-format/check-clang-format.py .
