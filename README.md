@@ -3,7 +3,7 @@
 ## Supported sensor interfaces
 * SPI 4-wire
 
-## Supported devices
+## Supported bords
 * Jetson Nano
 * Jetson Xavier NX
 * Raspberry Pi4
@@ -11,7 +11,7 @@
 ## Functions
 ### instance(device, address)
 * **Returns the shared pointer to the instance's sensor. Performs sensor configuration with default settings.**
-* *device* - I2C file name to which the sensor is connected. Example */dev/i2c-1*.
+* *device* - I2C file name to which the sensor is connected. An example for Jetson Nano and Raspberry Pi is */dev/i2c-1*, and for Jetson Xavier NX it is */dev/i2c-8*.
 * *address* - BMP280 I2C address(default 0x77).
 
 ### getTemperature()
