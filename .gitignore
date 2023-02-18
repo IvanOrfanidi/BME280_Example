@@ -1,0 +1,13 @@
+*.*
+/build
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+!*.in
+!*.txt
+!*.sh
+!.clang-format
+!.gitignore
+!*.md
+!*.yml
